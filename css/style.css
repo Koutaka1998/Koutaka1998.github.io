@@ -1,0 +1,64 @@
+body{
+    background-color: lime;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+table{
+    color: black;
+    background-color: lightgray;
+
+}
+
+hr{
+    border-color: black;
+}
+
+table{
+    background-color: transparent;
+    color: black;
+}
+
+.principal{
+    text-align: center; 
+}
+
+button {
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    border: 1px;
+    margin: 100px;
+}
+
+.footer{
+    color: black;
+    margin: 100px;
+    font-size: 30px;
+}
+
+blink, .blink {
+    -webkit-animation: blink 1s step-end infinite;
+    -moz-animation: blink 1s step-end infinite;
+    -o-animation: blink 1s step-end infinite;
+    animation: blink 1s step-end infinite;
+    color: red;
+}
+@-webkit-keyframes blink { 70% { opacity: 0 }}
+@-moz-keyframes blink {  70% { opacity: 0 }}
+@-o-keyframes blink {  70% { opacity: 0 }}
+@keyframes blink {  70% { opacity: 0 }}
+
+h3{
+    color:black;
+}
+h1{
+    color:black;
+}
+h4{
+    color:black;
+}
+a{
+    color:black;
+}
